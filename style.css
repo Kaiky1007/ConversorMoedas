@@ -27,3 +27,13 @@ header h1 {
     font-size: 2rem;
     font-weight: 700;
 }
+
+/* --- O card do Conversor --- */
+main {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 2rem;
+    width: 100%;
+    max-width: 450px; /* Largura máxima do conversor */
+}
