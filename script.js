@@ -30,6 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const valorEmBRL = valor / taxas[moedaDe];
         const valorConvertido = valorEmBRL * taxas[moedaPara];
 
-        resultadoP.textContent = valorConvertido.toFixed(2);
+        const formatadorDe = new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: moedaDe
+        });
+
+        const formatadorPara = new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: moedaPara
+        });
+
+        resultadoP.textContent = `${formatadorDe.format(valor)} equivale a ${formatadorPara.format(valorConvertido)}`;
     });
 });
