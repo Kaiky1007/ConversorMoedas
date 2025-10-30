@@ -49,3 +49,16 @@ label {
     font-weight: 600;
     color: #555;
 }
+
+/* --- Campos de Input e Select --- */
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9; /* Um fundo levemente acinzentado para o campo */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
