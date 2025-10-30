@@ -62,3 +62,11 @@ select {
     background-color: #f9f9f9; /* Um fundo levemente acinzentado para o campo */
     transition: border-color 0.2s, box-shadow 0.2s;
 }
+
+/* Efeito de foco  */
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #007bff; /* Cor primária (azul) */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15); /* Brilho sutil */
+}
