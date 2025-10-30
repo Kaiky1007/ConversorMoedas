@@ -13,7 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     converterBtn.addEventListener('click', () => {
+        const valor = parseFloat(valorInput.value);
+        const moedaDe = deSelect.value;
+        const moedaPara = paraSelect.value;        
 
-        console.log('Botão clicado!'); 
+        const valorEmBRL = valor / taxas[moedaDe];
+
+        const valorConvertido = valorEmBRL * taxas[moedaPara];
+
+        resultadoP.textContent = valorConvertido.toFixed(2);
     });
 });
