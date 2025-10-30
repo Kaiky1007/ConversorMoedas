@@ -37,3 +37,15 @@ main {
     width: 100%;
     max-width: 450px; /* Largura máxima do conversor */
 }
+/* --- Seções do Formulário --- */
+main section {
+    margin-bottom: 1.5rem; /* Espaçamento entre cada grupo (Valor, De, Para, Botão) */
+}
+
+/* --- Rótulos (Labels) --- */
+label {
+    display: block; /* Faz o rótulo ficar em sua própria linha */
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+}
