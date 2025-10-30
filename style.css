@@ -101,3 +101,35 @@ button#converter:hover {
 button#converter:active {
     transform: scale(0.98); /* Efeito de clique */
 }
+/* --- Seção de Resultado --- */
+section#resultado {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed #dcdcdc; /* Borda tracejada para o "placeholder" */
+    min-height: 50px; /* Evita que o layout "pule" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#resultado p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #777; /* Cor sutil para o texto "O resultado aparecerá aqui." */
+}
+
+/* --- Rodapé (Dentro do Main) --- */
+main > footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0; /* Linha separadora sutil */
+}
+
+main > footer p {
+    font-size: 0.8rem;
+    color: #aaa;
+}
