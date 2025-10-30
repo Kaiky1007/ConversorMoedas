@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const taxas = {
         'BRL': 1.0,
         'USD': 0.18587, 
-        'EUR': 0.16051
+        'EUR': 0.16051,
+        'JPY': 28.63
     };
 
     converterBtn.addEventListener('click', () => {
