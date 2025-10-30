@@ -80,3 +80,24 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
   -moz-appearance: textfield; 
 }
+/* --- Botão de Conversão --- */
+button#converter {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Cor primária (azul) */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s;
+}
+
+button#converter:hover {
+    background-color: #0056b3; /* Tom mais escuro ao passar o mouse */
+}
+
+button#converter:active {
+    transform: scale(0.98); /* Efeito de clique */
+}
