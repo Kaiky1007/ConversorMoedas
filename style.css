@@ -174,11 +174,11 @@ body.dark-mode main > footer p {
 }
 
 body.dark-mode button#converter {
-    background-color: #0d6efd;
+    background-color: #0d6dfdc2;
 }
 
 body.dark-mode button#converter:hover {
-    background-color: #0b5ed7;
+    background-color: #0b96d7;
 }
 
 /* Botão de tema */
