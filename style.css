@@ -177,8 +177,10 @@ body.dark-mode button#converter {
     background-color: #0d6dfdc2;
 }
 
+/*Mudança da função botão (isabela donald)*/
+
 body.dark-mode button#converter:hover {
-    background-color: #0b96d7;
+    background-color: #2cb2f0;
 }
 
 /* Botão de tema */
