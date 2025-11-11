@@ -1,3 +1,5 @@
+   
+    /* --- Alterado por Maria Waleska --- */
    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
@@ -7,7 +9,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* --- Alterado por Maria Waleska --- */
     background-color: #f0f4f8; /* Um fundo suave, cor de céu/nuvem */
     color: #333;
     display: flex;
