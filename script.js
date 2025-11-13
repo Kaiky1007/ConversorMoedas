@@ -46,14 +46,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// === Alternar entre tema claro e escuro ===
 function alternarTema() {
     const body = document.body;
     const botao = document.getElementById("toggle-theme");
 
     body.classList.toggle("dark-mode");
 
-    // Atualiza o texto do botão
     if (body.classList.contains("dark-mode")) {
         botao.textContent = "☀️ Tema Claro";
         localStorage.setItem("tema", "escuro");
@@ -63,7 +61,6 @@ function alternarTema() {
     }
 }
 
-// Verifica o tema salvo ao carregar o site
 window.addEventListener("DOMContentLoaded", () => {
     const temaSalvo = localStorage.getItem("tema");
     const botao = document.getElementById("toggle-theme");
@@ -77,3 +74,5 @@ window.addEventListener("DOMContentLoaded", () => {
 
     botao.addEventListener("click", alternarTema);
 });
+
+
